@@ -1,0 +1,201 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.ukraine_header{
+    height: 80px;
+    background-image: linear-gradient(blue,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.flag-ukr{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(blue 0%,blue 50%, yellow 50%, yellow 100%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: blue;
+    -webkit-text-stroke: 4px yellow;
+}
+.italia_header{
+    height: 80px;
+    background-image: linear-gradient(90deg, green, white, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.italia_flag{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(90deg, green 0%, green 33%, white 33%, white 66%, red 66%, red 100% );
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: red;
+    -webkit-text-stroke: 4px green;
+}
+.spain_header{
+    height: 80px;
+    background-image: linear-gradient(red, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spain_flag{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(red 0%, red 15%, yellow 15%, yellow 85%, red 85%, red 100% );
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: red;
+    -webkit-text-stroke: 4px green;
+    position: relative;
+}
+.spain_flag img{
+    width: 300px;
+    position: absolute;
+    left: 75px;
+}
+.northk_header{
+    height: 80px;
+    background-image: linear-gradient(blue, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.northk_flag{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(blue 0%, blue 15%, white 15%, white 18%, red 18%, red 78%, white 78%, white 81%,  blue 81%, blue 100% );
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: red;
+    -webkit-text-stroke: 4px green;
+    position: relative;
+}
+.northk_flag img{
+    width: 300px;
+    position: absolute;
+    left: 75px;
+}
+.swiss_header{
+    height: 80px;
+    background-image: linear-gradient(90deg, yellow, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiss_flag{
+    height: calc(100vh - 80px);
+    background-color: blue;
+    position: relative;
+}
+.line_gorizontal{
+    height: 100px;
+    width: 1920px;
+    background-color: yellow;
+    position: absolute;
+    top: 380px;
+}
+.line_vertical{
+    height: 852px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 400px;
+}
+.tanzania_header{
+    background-image: linear-gradient(45deg, green, black, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
+.tanzania_flag{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(-30deg, green 0%, green 35%, yellow 35%, yellow 38%, black 38%, black 62%, yellow 62%, yellow 65%,  blue 65%, blue 100% );
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: red;
+    -webkit-text-stroke: 4px green;
+    position: relative;   
+}
+.dominicana_flag{
+    height: calc(100vh - 80px);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: red;
+    -webkit-text-stroke: 4px green;
+    position: relative;   
+}
+
+.dominica_sq1{
+    background-color: darkred;
+    padding: 300px 600px 200px 530px;
+    position: absolute;
+    bottom: 661px;
+    right: 55%;
+}
+.dominica_sq2{
+    background-color: darkblue;
+    padding: 300px 600px 200px 530px;
+    position: absolute;
+    bottom: 661px;
+    left: 55%;
+}
+.dominica_sq3{
+    background-color: darkred;
+    padding: 300px 600px 200px 530px;
+    position: absolute;
+    top: 661px;
+    left: 55%;
+}
+.dominica_sq4{
+    background-color: darkblue;
+    padding: 300px 600px 200px 530px;
+    position: absolute;
+    top: 661px;
+    right: 55%;
+}
+.dominicana_flag img{
+    width: 200px;
+}
+.taiwan_flag{
+    height: calc(100vh - 80px);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    color: red;
+    -webkit-text-stroke: 4px green;
+    position: relative;  
+    background-color: red; 
+}
+
+
